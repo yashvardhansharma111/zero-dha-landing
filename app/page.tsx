@@ -1,5 +1,7 @@
+import Link from "next/link";
+
 const APK_URL =
-  "https://expo.dev/artifacts/eas/cuSbL5YuAYSzNiR6R3hJ6K.apk";
+  "https://expo.dev/artifacts/eas/xy7PToRrAWenfm5w7yYzA_GeWr_k7DsAddeciM-j5xg.apk";
 
 function DownloadButton({ className = "" }: { className?: string }) {
   return (
@@ -66,10 +68,10 @@ export default function Home() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
           <div className="flex items-center gap-2.5">
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-white font-bold text-lg">
-              Z
+              N
             </div>
             <span className="text-xl font-bold tracking-tight text-foreground">
-              Zero-Dha
+              Nokia Securities
             </span>
           </div>
           <nav className="hidden items-center gap-8 text-sm font-medium text-text-secondary md:flex">
@@ -93,18 +95,19 @@ export default function Home() {
         <div className="relative mx-auto flex max-w-6xl flex-col items-center px-5 pt-20 pb-24 text-center lg:pt-28 lg:pb-32">
           <span className="mb-5 inline-flex items-center gap-1.5 rounded-full border border-primary/20 bg-primary-muted px-4 py-1.5 text-xs font-semibold text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-            Now available for Android
+            Paper Trading App · Simulated Trades Only
           </span>
           <h1 className="max-w-3xl text-4xl font-extrabold leading-[1.15] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Trade smarter with{" "}
+            Practise the markets with{" "}
             <span className="bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
-              Zero-Dha
+              Nokia Securities
             </span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-text-secondary">
-            Real-time indices, equities &amp; commodities — all in one
-            beautifully simple app. Track markets, manage your portfolio, and
-            execute trades on the go.
+            A <strong>paper trading (simulated) app</strong> for indices,
+            equities &amp; commodities. Place virtual orders, manage a virtual
+            portfolio, and learn the markets risk-free &mdash; no real money is
+            invested.
           </p>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
             <DownloadButton />
@@ -132,7 +135,7 @@ export default function Home() {
           {/* Stats */}
           <div className="mt-16 grid w-full max-w-md grid-cols-3 gap-6">
             <Stat value="50+" label="Instruments" />
-            <Stat value="Real‑time" label="Market data" />
+            <Stat value="100%" label="Simulated" />
             <Stat value="Free" label="To use" />
           </div>
         </div>
@@ -143,10 +146,10 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-5">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Everything you need to trade
+              Everything you need to practise trading
             </h2>
             <p className="mt-4 text-text-secondary max-w-lg mx-auto">
-              Packed with powerful features, wrapped in a clean interface.
+              A risk-free simulator with the polish of a real trading app.
             </p>
           </div>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -155,7 +158,7 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
               }
               title="Live Market Data"
-              description="Real-time prices for indices, equities, and commodities with instant updates."
+              description="Live prices for indices, equities, and commodities — used to make the simulator feel real."
             />
             <FeatureCard
               icon={
@@ -168,15 +171,15 @@ export default function Home() {
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
               }
-              title="Fund Management"
-              description="Deposit and withdraw seamlessly with UPI integration and real-time balance tracking."
+              title="Virtual Funds"
+              description="Top up and withdraw simulated funds in seconds. Track your virtual balance and margin in real time."
             />
             <FeatureCard
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
               }
-              title="Orders & Ledger"
-              description="Complete order history, position tracking, and downloadable CSV ledger reports."
+              title="Orders &amp; Ledger"
+              description="Full simulated order history, position tracking, and downloadable CSV ledger reports."
             />
             <FeatureCard
               icon={
@@ -204,7 +207,7 @@ export default function Home() {
               Get started in minutes
             </h2>
             <p className="mt-4 text-text-secondary max-w-lg mx-auto">
-              Three simple steps to start trading.
+              Three simple steps to start practising.
             </p>
           </div>
           <div className="mt-14 grid gap-8 sm:grid-cols-3">
@@ -217,12 +220,12 @@ export default function Home() {
               {
                 step: "2",
                 title: "Register & get approved",
-                desc: "Submit your details and documents. Admin reviews and emails your credentials.",
+                desc: "Submit your details. Admin reviews and emails your simulator credentials.",
               },
               {
                 step: "3",
-                title: "Start trading",
-                desc: "Sign in, fund your account via UPI, and trade live markets instantly.",
+                title: "Start paper trading",
+                desc: "Sign in, top up virtual funds, and place simulated trades risk-free.",
               },
             ].map((item) => (
               <div key={item.step} className="text-center">
@@ -248,11 +251,11 @@ export default function Home() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.12),transparent_60%)]" />
             <div className="relative">
               <h2 className="text-3xl font-bold sm:text-4xl">
-                Ready to trade?
+                Ready to practise?
               </h2>
               <p className="mx-auto mt-4 max-w-md text-white/80">
-                Download Zero-Dha now and experience the markets like never
-                before. Free to use, no hidden fees.
+                Download Nokia Securities and start paper trading the markets
+                today. 100% simulated. No real money. No hidden fees.
               </p>
               <div className="mt-10">
                 <a
@@ -287,35 +290,92 @@ export default function Home() {
 
       {/* ───── Footer ───── */}
       <footer className="border-t border-border bg-card/50">
-        <div className="mx-auto max-w-6xl px-5 py-10">
-          <div className="flex flex-col gap-8 sm:flex-row sm:justify-between">
+        <div className="mx-auto max-w-6xl px-5 py-12">
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-2">
                 <div className="flex h-7 w-7 items-center justify-center rounded-md bg-primary text-xs font-bold text-white">
-                  Z
+                  N
                 </div>
                 <span className="text-sm font-semibold text-foreground">
-                  Zero-Dha
+                  Nokia Securities
                 </span>
               </div>
-              <p className="text-xs text-text-secondary">
-                &copy; {new Date().getFullYear()} Zero-Dha. All rights reserved.
+              <p className="text-xs leading-relaxed text-text-secondary">
+                A paper trading (simulated) app for learning the markets. No
+                real money is invested, deposited, or withdrawn through this
+                application.
+              </p>
+              <p className="mt-2 text-xs text-text-secondary">
+                &copy; {new Date().getFullYear()} Nokia Securities. All rights
+                reserved.
               </p>
             </div>
+
             <div className="flex flex-col gap-2 text-sm">
-              <p className="font-semibold text-foreground">Contact &amp; Support</p>
-              <a
-                href="mailto:zerodhha@gmail.com"
+              <p className="font-semibold text-foreground">Product</p>
+              <Link
+                href="/about"
                 className="text-text-secondary transition hover:text-primary"
               >
-                zerodhha@gmail.com
-              </a>
+                About
+              </Link>
               <a
-                href="tel:+919329298523"
+                href="#features"
                 className="text-text-secondary transition hover:text-primary"
               >
-                +91 93292 98523
+                Features
               </a>
+              <a
+                href="#download"
+                className="text-text-secondary transition hover:text-primary"
+              >
+                Download
+              </a>
+            </div>
+
+            <div className="flex flex-col gap-2 text-sm">
+              <p className="font-semibold text-foreground">Help</p>
+              <Link
+                href="/support"
+                className="text-text-secondary transition hover:text-primary"
+              >
+                Support
+              </Link>
+              <Link
+                href="/contact"
+                className="text-text-secondary transition hover:text-primary"
+              >
+                Contact
+              </Link>
+              <a
+                href="mailto:support@nokiasecurities.in"
+                className="text-text-secondary transition hover:text-primary"
+              >
+                support@nokiasecurities.in
+              </a>
+            </div>
+
+            <div className="flex flex-col gap-2 text-sm">
+              <p className="font-semibold text-foreground">Legal</p>
+              <Link
+                href="/disclaimer"
+                className="text-text-secondary transition hover:text-primary"
+              >
+                Disclaimer
+              </Link>
+              <Link
+                href="/privacy"
+                className="text-text-secondary transition hover:text-primary"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms"
+                className="text-text-secondary transition hover:text-primary"
+              >
+                Terms &amp; Conditions
+              </Link>
             </div>
           </div>
         </div>

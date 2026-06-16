@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zero-Dha — Trade Smarter",
+  title: "Nokia Securities — Paper Trading App",
   description:
-    "Zero-Dha is a modern trading app for indices, equities & commodities. Download the APK and start trading today.",
+    "Nokia Securities is a paper trading (simulated) app for indices, equities & commodities. Practise the markets risk-free — no real money is invested.",
 };
 
 export default function RootLayout({
