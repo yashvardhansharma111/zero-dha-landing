@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const APK_URL =
-  "https://expo.dev/artifacts/eas/xy7PToRrAWenfm5w7yYzA_GeWr_k7DsAddeciM-j5xg.apk";
+  "https://expo.dev/artifacts/eas/4wa7_AMvzErbzYdLWmYGS3niCNJBUQzBHfnRddmr_XE.apk";
 
 function DownloadButton({ className = "" }: { className?: string }) {
   return (
