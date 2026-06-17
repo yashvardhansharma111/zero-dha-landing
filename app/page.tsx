@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const APK_URL =
-  "https://expo.dev/artifacts/eas/4wa7_AMvzErbzYdLWmYGS3niCNJBUQzBHfnRddmr_XE.apk";
+  "https://pub-2d6209cdfbff4969a7bce2944892bf73.r2.dev/Zero-Dha.apk";
 
 function DownloadButton({ className = "" }: { className?: string }) {
   return (
