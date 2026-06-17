@@ -95,19 +95,18 @@ export default function Home() {
         <div className="relative mx-auto flex max-w-6xl flex-col items-center px-5 pt-20 pb-24 text-center lg:pt-28 lg:pb-32">
           <span className="mb-5 inline-flex items-center gap-1.5 rounded-full border border-primary/20 bg-primary-muted px-4 py-1.5 text-xs font-semibold text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-            Paper Trading App · Simulated Trades Only
+            Algo Trading App · Intelligent Automated Strategies
           </span>
           <h1 className="max-w-3xl text-4xl font-extrabold leading-[1.15] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Practise the markets with{" "}
+            Trade smarter with{" "}
             <span className="bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
               Nokia Securities
             </span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-text-secondary">
-            A <strong>paper trading (simulated) app</strong> for indices,
-            equities &amp; commodities. Place virtual orders, manage a virtual
-            portfolio, and learn the markets risk-free &mdash; no real money is
-            invested.
+            An <strong>algo trading platform</strong> for indices, equities
+            &amp; commodities. Automate your strategies, track live positions,
+            and let intelligent systems execute trades with precision.
           </p>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
             <DownloadButton />
@@ -135,7 +134,7 @@ export default function Home() {
           {/* Stats */}
           <div className="mt-16 grid w-full max-w-md grid-cols-3 gap-6">
             <Stat value="50+" label="Instruments" />
-            <Stat value="100%" label="Simulated" />
+            <Stat value="24/7" label="Automated" />
             <Stat value="Free" label="To use" />
           </div>
         </div>
@@ -146,10 +145,10 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-5">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Everything you need to practise trading
+              Everything you need to trade algorithmically
             </h2>
             <p className="mt-4 text-text-secondary max-w-lg mx-auto">
-              A risk-free simulator with the polish of a real trading app.
+              A professional algo trading platform with the speed and precision your strategies demand.
             </p>
           </div>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -158,42 +157,42 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
               }
               title="Live Market Data"
-              description="Live prices for indices, equities, and commodities — used to make the simulator feel real."
+              description="Real-time prices for indices, equities, and commodities streamed directly to your strategies."
             />
             <FeatureCard
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
               }
               title="Interactive Charts"
-              description="Professional candlestick and area charts with multiple timeframes to spot trends."
+              description="Professional candlestick and area charts with multiple timeframes to analyse and refine your algo signals."
             />
             <FeatureCard
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
               }
-              title="Virtual Funds"
-              description="Top up and withdraw simulated funds in seconds. Track your virtual balance and margin in real time."
+              title="Fund Management"
+              description="Deposit and withdraw funds in seconds. Track your live balance, margin utilisation, and drawdown in real time."
             />
             <FeatureCard
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
               }
               title="Orders &amp; Ledger"
-              description="Full simulated order history, position tracking, and downloadable CSV ledger reports."
+              description="Complete algo order history, live position tracking, and downloadable CSV ledger reports."
             />
             <FeatureCard
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
               }
               title="Secure & Private"
-              description="Encrypted authentication, secure document uploads, and admin-approved accounts."
+              description="Encrypted authentication, secure document uploads, and admin-approved accounts keep your data safe."
             />
             <FeatureCard
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
               }
               title="Watchlist & Alerts"
-              description="Create custom watchlists and stay on top of the instruments that matter to you."
+              description="Build custom watchlists and set price alerts so your algo strategies never miss a signal."
             />
           </div>
         </div>
@@ -207,7 +206,7 @@ export default function Home() {
               Get started in minutes
             </h2>
             <p className="mt-4 text-text-secondary max-w-lg mx-auto">
-              Three simple steps to start practising.
+              Three simple steps to start algo trading.
             </p>
           </div>
           <div className="mt-14 grid gap-8 sm:grid-cols-3">
@@ -220,12 +219,12 @@ export default function Home() {
               {
                 step: "2",
                 title: "Register & get approved",
-                desc: "Submit your details. Admin reviews and emails your simulator credentials.",
+                desc: "Submit your details. Admin reviews and activates your algo trading account.",
               },
               {
                 step: "3",
-                title: "Start paper trading",
-                desc: "Sign in, top up virtual funds, and place simulated trades risk-free.",
+                title: "Start algo trading",
+                desc: "Sign in, fund your account, and let intelligent strategies execute trades automatically.",
               },
             ].map((item) => (
               <div key={item.step} className="text-center">
@@ -251,11 +250,11 @@ export default function Home() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.12),transparent_60%)]" />
             <div className="relative">
               <h2 className="text-3xl font-bold sm:text-4xl">
-                Ready to practise?
+                Ready to automate?
               </h2>
               <p className="mx-auto mt-4 max-w-md text-white/80">
-                Download Nokia Securities and start paper trading the markets
-                today. 100% simulated. No real money. No hidden fees.
+                Download Nokia Securities and start algo trading the markets
+                today. Intelligent strategies. Real execution. No hidden fees.
               </p>
               <div className="mt-10">
                 <a
@@ -302,9 +301,9 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-xs leading-relaxed text-text-secondary">
-                A paper trading (simulated) app for learning the markets. No
-                real money is invested, deposited, or withdrawn through this
-                application.
+                An algo trading platform for indices, equities &amp; commodities.
+                Automate your strategies and execute trades with speed and
+                precision.
               </p>
               <p className="mt-2 text-xs text-text-secondary">
                 &copy; {new Date().getFullYear()} Nokia Securities. All rights
