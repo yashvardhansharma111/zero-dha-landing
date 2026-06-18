@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const APK_URL =
-  "https://pub-2d6209cdfbff4969a7bce2944892bf73.r2.dev/Zero-Dha.apk";
+  "https://pub-2d6209cdfbff4969a7bce2944892bf73.r2.dev/application-6b88a283-ac3c-4929-a0c2-861d757e2368.apk";
 
 function DownloadButton({ className = "" }: { className?: string }) {
   return (
