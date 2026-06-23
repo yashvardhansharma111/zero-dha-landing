@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About · Nokia Securities",
+  title: "About · Zerodha",
   description:
-    "About Nokia Securities — a paper trading (simulated) app for learning the markets risk-free.",
+    "About Zerodha — a paper trading (simulated) app for learning the markets risk-free.",
 };
 
 export default function AboutPage() {
   return (
     <article>
       <h1 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
-        About Nokia Securities
+        About Zerodha
       </h1>
       <p className="mt-4 text-[17px] leading-relaxed text-text-secondary">
-        Nokia Securities is a <strong>paper trading (simulated) app</strong>{" "}
+        Zerodha is a <strong>paper trading (simulated) app</strong>{" "}
         that helps people learn how the stock market works &mdash; without
         risking a single rupee of real money. Place virtual orders, manage a
         virtual portfolio, and watch your simulated P&amp;L respond to live
@@ -47,7 +47,7 @@ export default function AboutPage() {
         <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
           Investing literacy in India is growing fast, but most people still
           take their first &ldquo;trade&rdquo; with real money. We think
-          that&rsquo;s backwards. Nokia Securities exists to give every
+          that&rsquo;s backwards. Zerodha exists to give every
           beginner a free, risk-free place to make their first hundred
           mistakes &mdash; so when they do open a real broking account, they
           already know how an order ticket works, what a stop-loss feels like,
@@ -94,10 +94,10 @@ export default function AboutPage() {
         <p className="mt-2 text-[15px] leading-relaxed text-text-secondary">
           Questions, feedback, or partnership ideas? Email{" "}
           <a
-            href="mailto:support@nokiasecurities.in"
+            href="mailto:support@zerodha-pulse.in"
             className="text-primary underline underline-offset-4"
           >
-            support@nokiasecurities.in
+            support@zerodha-pulse.in
           </a>
           {" "}or visit our{" "}
           <Link

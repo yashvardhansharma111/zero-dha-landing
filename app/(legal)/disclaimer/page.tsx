@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Disclaimer · Nokia Securities",
+  title: "Disclaimer · Zerodha",
   description:
-    "Important disclaimer — Nokia Securities is a paper trading (simulated) app, not a real broker.",
+    "Important disclaimer — Zerodha is a paper trading (simulated) app, not a real broker.",
 };
 
 const LAST_UPDATED = "May 5, 2026";
@@ -20,7 +20,7 @@ export default function DisclaimerPage() {
 
       <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-relaxed text-amber-900">
         <strong className="block text-base">
-          Nokia Securities is a paper trading (simulated) application.
+          Zerodha is a paper trading (simulated) application.
         </strong>
         <p className="mt-2">
           It is intended for education and practice only. The app does{" "}
@@ -56,7 +56,7 @@ export default function DisclaimerPage() {
       <Section title="2. Not a broker, not investment advice">
         <ul>
           <li>
-            Nokia Securities is <strong>not</strong> a SEBI-registered broker,
+            Zerodha is <strong>not</strong> a SEBI-registered broker,
             sub-broker, depository participant, mutual-fund distributor,
             investment adviser, or research analyst.
           </li>
@@ -99,7 +99,7 @@ export default function DisclaimerPage() {
 
       <Section title="5. Risks of misuse">
         <p>
-          Do not use the Nokia Securities simulator to mislead anyone into
+          Do not use the Zerodha simulator to mislead anyone into
           believing real trades or real money are involved. Doing so violates
           our{" "}
           <a href="/terms">Terms &amp; Conditions</a> and may also violate
@@ -111,8 +111,8 @@ export default function DisclaimerPage() {
         <p>
           If anything in the app is unclear, or you suspect content is being
           misrepresented as real trading, write to{" "}
-          <a href="mailto:support@nokiasecurities.in">
-            support@nokiasecurities.in
+          <a href="mailto:support@zerodha-pulse.in">
+            support@zerodha-pulse.in
           </a>
           .
         </p>

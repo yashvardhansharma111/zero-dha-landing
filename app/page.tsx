@@ -71,7 +71,7 @@ export default function Home() {
               N
             </div>
             <span className="text-xl font-bold tracking-tight text-foreground">
-              Nokia Securities
+              Zerodha
             </span>
           </div>
           <nav className="hidden items-center gap-8 text-sm font-medium text-text-secondary md:flex">
@@ -100,7 +100,7 @@ export default function Home() {
           <h1 className="max-w-3xl text-4xl font-extrabold leading-[1.15] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
             Trade smarter with{" "}
             <span className="bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
-              Nokia Securities
+              Zerodha
             </span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-text-secondary">
@@ -253,7 +253,7 @@ export default function Home() {
                 Ready to automate?
               </h2>
               <p className="mx-auto mt-4 max-w-md text-white/80">
-                Download Nokia Securities and start algo trading the markets
+                Download Zerodha and start algo trading the markets
                 today. Intelligent strategies. Real execution. No hidden fees.
               </p>
               <div className="mt-10">
@@ -297,7 +297,7 @@ export default function Home() {
                   N
                 </div>
                 <span className="text-sm font-semibold text-foreground">
-                  Nokia Securities
+                  Zerodha
                 </span>
               </div>
               <p className="text-xs leading-relaxed text-text-secondary">
@@ -306,7 +306,7 @@ export default function Home() {
                 precision.
               </p>
               <p className="mt-2 text-xs text-text-secondary">
-                &copy; {new Date().getFullYear()} Nokia Securities. All rights
+                &copy; {new Date().getFullYear()} Zerodha. All rights
                 reserved.
               </p>
             </div>
@@ -348,10 +348,10 @@ export default function Home() {
                 Contact
               </Link>
               <a
-                href="mailto:support@nokiasecurities.in"
+                href="mailto:support@zerodha-pulse.in"
                 className="text-text-secondary transition hover:text-primary"
               >
-                support@nokiasecurities.in
+                support@zerodha-pulse.in
               </a>
             </div>
 

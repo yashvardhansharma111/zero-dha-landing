@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy · Nokia Securities",
+  title: "Privacy Policy · Zerodha",
   description:
-    "Privacy Policy for Nokia Securities — a paper trading (simulated) app.",
+    "Privacy Policy for Zerodha — a paper trading (simulated) app.",
 };
 
 const LAST_UPDATED = "May 5, 2026";
@@ -20,10 +20,10 @@ export default function PrivacyPage() {
 
       <Section title="1. Introduction">
         <p>
-          Nokia Securities (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or
-          &ldquo;us&rdquo;) operates the Nokia Securities mobile application
+          Zerodha (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or
+          &ldquo;us&rdquo;) operates the Zerodha mobile application
           and the website at{" "}
-          <a href="https://app.zero-dha1.in">https://app.zero-dha1.in</a>{" "}
+          <a href="https://app.zerodha-pulse.in">https://app.zerodha-pulse.in</a>{" "}
           (collectively, the &ldquo;Service&rdquo;). The Service is a{" "}
           <strong>paper trading (simulated) application</strong> intended for
           education and practice. No real money is invested, deposited,
@@ -86,8 +86,8 @@ export default function PrivacyPage() {
           </li>
           <li>
             To respond to your support requests sent to{" "}
-            <a href="mailto:support@nokiasecurities.in">
-              support@nokiasecurities.in
+            <a href="mailto:support@zerodha-pulse.in">
+              support@zerodha-pulse.in
             </a>
             .
           </li>
@@ -145,8 +145,8 @@ export default function PrivacyPage() {
         </ul>
         <p>
           To exercise any of these rights, email{" "}
-          <a href="mailto:support@nokiasecurities.in">
-            support@nokiasecurities.in
+          <a href="mailto:support@zerodha-pulse.in">
+            support@zerodha-pulse.in
           </a>
           . We will respond within 30 days.
         </p>
@@ -173,8 +173,8 @@ export default function PrivacyPage() {
       <Section title="10. Contact us">
         <p>
           For any privacy-related questions, contact us at{" "}
-          <a href="mailto:support@nokiasecurities.in">
-            support@nokiasecurities.in
+          <a href="mailto:support@zerodha-pulse.in">
+            support@zerodha-pulse.in
           </a>
           .
         </p>

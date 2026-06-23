@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions · Nokia Securities",
+  title: "Terms & Conditions · Zerodha",
   description:
-    "Terms & Conditions for Nokia Securities — a paper trading (simulated) app.",
+    "Terms & Conditions for Zerodha — a paper trading (simulated) app.",
 };
 
 const LAST_UPDATED = "May 5, 2026";
@@ -19,7 +19,7 @@ export default function TermsPage() {
       </p>
 
       <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-relaxed text-amber-900">
-        <strong>Important: </strong>Nokia Securities is a{" "}
+        <strong>Important: </strong>Zerodha is a{" "}
         <strong>paper trading (simulated) application</strong>. It does not
         place real trades, hold real funds, or execute orders on any stock
         exchange. All money, prices, and orders inside the app are virtual and
@@ -28,9 +28,9 @@ export default function TermsPage() {
 
       <Section title="1. Acceptance of terms">
         <p>
-          By downloading, installing, or using the Nokia Securities mobile
+          By downloading, installing, or using the Zerodha mobile
           application or the website at{" "}
-          <a href="https://app.zero-dha1.in">https://app.zero-dha1.in</a>{" "}
+          <a href="https://app.zerodha-pulse.in">https://app.zerodha-pulse.in</a>{" "}
           (the &ldquo;Service&rdquo;), you agree to be bound by these Terms
           &amp; Conditions. If you do not agree, do not use the Service.
         </p>
@@ -78,8 +78,8 @@ export default function TermsPage() {
           </li>
           <li>
             Notify us immediately at{" "}
-            <a href="mailto:support@nokiasecurities.in">
-              support@nokiasecurities.in
+            <a href="mailto:support@zerodha-pulse.in">
+              support@zerodha-pulse.in
             </a>{" "}
             if you suspect unauthorised access.
           </li>
@@ -137,7 +137,7 @@ export default function TermsPage() {
 
       <Section title="8. Limitation of liability">
         <p>
-          To the maximum extent permitted by law, Nokia Securities and its
+          To the maximum extent permitted by law, Zerodha and its
           team will not be liable for any indirect, incidental, special, or
           consequential damages arising from your use of the Service. Because
           the Service is a simulator, no real financial loss can occur within
@@ -150,8 +150,8 @@ export default function TermsPage() {
         <p>
           You may stop using the Service and request account deletion at any
           time by emailing{" "}
-          <a href="mailto:support@nokiasecurities.in">
-            support@nokiasecurities.in
+          <a href="mailto:support@zerodha-pulse.in">
+            support@zerodha-pulse.in
           </a>
           . We may terminate or suspend your access if you violate these
           Terms.
@@ -176,8 +176,8 @@ export default function TermsPage() {
       <Section title="12. Contact">
         <p>
           Questions about these Terms? Email{" "}
-          <a href="mailto:support@nokiasecurities.in">
-            support@nokiasecurities.in
+          <a href="mailto:support@zerodha-pulse.in">
+            support@zerodha-pulse.in
           </a>
           .
         </p>

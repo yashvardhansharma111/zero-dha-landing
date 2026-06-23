@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact · Nokia Securities",
+  title: "Contact · Zerodha",
   description:
-    "Get in touch with the Nokia Securities team — a paper trading (simulated) app.",
+    "Get in touch with the Zerodha team — a paper trading (simulated) app.",
 };
 
 export default function ContactPage() {
@@ -40,10 +40,10 @@ export default function ContactPage() {
             General &amp; support
           </p>
           <a
-            href="mailto:support@nokiasecurities.in"
+            href="mailto:support@zerodha-pulse.in"
             className="mt-1 block break-all text-lg font-bold text-foreground hover:text-primary"
           >
-            support@nokiasecurities.in
+            support@zerodha-pulse.in
           </a>
           <p className="mt-3 text-sm leading-relaxed text-text-secondary">
             For account help, password resets, bug reports, and any general
@@ -72,10 +72,10 @@ export default function ContactPage() {
             Website
           </p>
           <a
-            href="https://app.zero-dha1.in"
+            href="https://app.zerodha-pulse.in"
             className="mt-1 block break-all text-lg font-bold text-foreground hover:text-primary"
           >
-            nokiasecurities.in
+            zerodha-pulse.in
           </a>
           <p className="mt-3 text-sm leading-relaxed text-text-secondary">
             Visit our website for the latest version of the app, FAQs, and
@@ -86,7 +86,7 @@ export default function ContactPage() {
 
       <section className="mt-12 rounded-2xl border border-amber-200 bg-amber-50 p-6 text-sm leading-relaxed text-amber-900">
         <p>
-          <strong>Please note:</strong> Nokia Securities is a paper trading
+          <strong>Please note:</strong> Zerodha is a paper trading
           (simulated) app. We are <strong>not</strong> a SEBI-registered
           broker, sub-broker, or investment adviser. We cannot place real
           trades, hold real funds, or give investment advice. For grievances

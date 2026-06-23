@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nokia Securities — Paper Trading App",
+  title: "Zerodha — Paper Trading App",
   description:
-    "Nokia Securities is a paper trading (simulated) app for indices, equities & commodities. Practise the markets risk-free — no real money is invested.",
+    "Zerodha is a paper trading (simulated) app for indices, equities & commodities. Practise the markets risk-free — no real money is invested.",
 };
 
 export default function RootLayout({

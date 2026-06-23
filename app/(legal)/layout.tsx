@@ -20,7 +20,7 @@ export default function LegalLayout({ children }: { children: ReactNode }) {
               N
             </div>
             <span className="text-xl font-bold tracking-tight text-foreground">
-              Nokia Securities
+              Zerodha
             </span>
           </Link>
           <Link
@@ -51,7 +51,7 @@ export default function LegalLayout({ children }: { children: ReactNode }) {
                   N
                 </div>
                 <span className="text-sm font-semibold text-foreground">
-                  Nokia Securities
+                  Zerodha
                 </span>
               </div>
               <p className="max-w-sm text-xs text-text-secondary">
@@ -60,7 +60,7 @@ export default function LegalLayout({ children }: { children: ReactNode }) {
                 application.
               </p>
               <p className="text-xs text-text-secondary">
-                &copy; {new Date().getFullYear()} Nokia Securities. All rights
+                &copy; {new Date().getFullYear()} Zerodha. All rights
                 reserved.
               </p>
             </div>
@@ -76,10 +76,10 @@ export default function LegalLayout({ children }: { children: ReactNode }) {
                 </Link>
               ))}
               <a
-                href="mailto:support@nokiasecurities.in"
+                href="mailto:support@zerodha-pulse.in"
                 className="text-text-secondary transition hover:text-primary"
               >
-                support@nokiasecurities.in
+                support@zerodha-pulse.in
               </a>
             </div>
           </div>

@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Support · Nokia Securities",
+  title: "Support · Zerodha",
   description:
-    "Get help with the Nokia Securities paper trading app — account, login, simulator usage, and bug reports.",
+    "Get help with the Zerodha paper trading app — account, login, simulator usage, and bug reports.",
 };
 
 const FAQS: { q: string; a: string }[] = [
   {
-    q: "Is Nokia Securities a real broker?",
-    a: "No. Nokia Securities is a paper trading (simulated) app. We are not a SEBI-registered broker. All money, orders, and balances inside the app are virtual and exist for educational practice only.",
+    q: "Is Zerodha a real broker?",
+    a: "No. Zerodha is a paper trading (simulated) app. We are not a SEBI-registered broker. All money, orders, and balances inside the app are virtual and exist for educational practice only.",
   },
   {
     q: "Can I lose real money using the app?",
@@ -18,15 +18,15 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "I haven’t received my login credentials.",
-    a: "Credentials are emailed after an admin reviews your registration. Please check your spam folder. If it has been more than 24 hours, email support@nokiasecurities.in with your registered email address.",
+    a: "Credentials are emailed after an admin reviews your registration. Please check your spam folder. If it has been more than 24 hours, email support@zerodha-pulse.in with your registered email address.",
   },
   {
     q: "I forgot my password.",
-    a: "Email support@nokiasecurities.in from the email address you registered with and we will help you reset access.",
+    a: "Email support@zerodha-pulse.in from the email address you registered with and we will help you reset access.",
   },
   {
     q: "How do I delete my account?",
-    a: "Send a deletion request from your registered email address to support@nokiasecurities.in. We will remove your account and associated simulator data within 30 days.",
+    a: "Send a deletion request from your registered email address to support@zerodha-pulse.in. We will remove your account and associated simulator data within 30 days.",
   },
   {
     q: "The app is showing an error or behaving unexpectedly.",
@@ -41,7 +41,7 @@ export default function SupportPage() {
         Support
       </h1>
       <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
-        Need help with the Nokia Securities <strong>paper trading</strong>{" "}
+        Need help with the Zerodha <strong>paper trading</strong>{" "}
         app? You&rsquo;re in the right place. Most questions can be answered
         below — for anything else, email us and we&rsquo;ll get back to you.
       </p>
@@ -51,10 +51,10 @@ export default function SupportPage() {
           Email support
         </p>
         <a
-          href="mailto:support@nokiasecurities.in"
+          href="mailto:support@zerodha-pulse.in"
           className="mt-2 inline-block text-2xl font-bold text-foreground hover:text-primary"
         >
-          support@nokiasecurities.in
+          support@zerodha-pulse.in
         </a>
         <p className="mt-3 text-sm text-text-secondary">
           We typically reply within 1–2 business days. Please email us from the
@@ -122,10 +122,10 @@ export default function SupportPage() {
           </Link>
           , or email{" "}
           <a
-            href="mailto:support@nokiasecurities.in"
+            href="mailto:support@zerodha-pulse.in"
             className="text-primary underline underline-offset-4"
           >
-            support@nokiasecurities.in
+            support@zerodha-pulse.in
           </a>
           .
         </p>
