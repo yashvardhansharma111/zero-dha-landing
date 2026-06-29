@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const APK_URL =
-  "https://www.dropbox.com/scl/fi/1kny6dmpunf4ldtyry5ng/Zero-Dhaa.apk?rlkey=4paycx88hv4rowig4b9mp38s0&st=fgg4t2cm&dl=1";
+  "https://www.dropbox.com/scl/fi/1ane9qwebkt7hxt8de4pq/application-413b5c09-a54b-4e3e-8a7a-723840ed176b.apk?rlkey=s6errz7p869zy3sjf9kvt8mne&st=mwuppa8r&dl=1";
 
 function DownloadButton({ className = "" }: { className?: string }) {
   return (
